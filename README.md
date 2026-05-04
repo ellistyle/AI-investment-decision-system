@@ -14,6 +14,14 @@
 - **React + ECharts 看板**：7 个页面，零构建即可运行（CDN 模式）
 - **跨平台**：macOS 开发 / Ubuntu 生产，运行时自动切换行为
 
+## 主要功能页面
+<img width="2728" height="1528" alt="58913613be9bb54be7fe9603b68eac11" src="https://github.com/user-attachments/assets/d998f1d0-ab01-47ce-a1f0-c0f597884037" />
+<img width="2738" height="1436" alt="cfdc2e616d98ee029d32d043d99c6210" src="https://github.com/user-attachments/assets/51af8a9d-7bd3-4e57-a725-0b17feeba6a7" />
+<img width="2744" height="1566" alt="332ed7575d89844234386073954a7540" src="https://github.com/user-attachments/assets/102d727b-50f6-49af-9a54-d93a0d1a79bf" />
+<img width="2690" height="1550" alt="67bbbab85a24b672385a53b943e013a0" src="https://github.com/user-attachments/assets/e02f2685-35fb-4800-a974-3fd9b39cbaee" />
+
+
+
 ## 目录结构
 
 ```
