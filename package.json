@@ -1,0 +1,32 @@
+{
+  "name": "investment-system",
+  "version": "1.0.0",
+  "description": "A股智能投资决策系统 - CANSLIM + 赔率/胜率框架",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "NODE_ENV=development node server.js",
+    "init-db": "node database/init.js",
+    "fetch-data": "python3 scripts/fetch_data.py",
+    "scan": "node cli/scan.js",
+    "backtest": "node cli/backtest.js",
+    "test": "node --test tests/*.test.js",
+    "pm2": "pm2 start ecosystem.config.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "express": "^4.21.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3",
+    "axios": "^1.7.7",
+    "dayjs": "^1.11.13",
+    "p-limit": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
